@@ -1,0 +1,58 @@
+.main-chart {
+  width: 1090px;
+  height: 320px;
+  border-radius: 5px;
+  background: #242424;
+  margin-top: 10px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    .title {
+      margin-left: 35px;
+      span {
+        &:first-child {
+          color: #fff;
+          font-size: 12px;
+          margin-right: 20px;
+        }
+        &:last-child {
+          color: #8D8D8D;
+          font-family: 'gotham-light';
+          font-size: 12px;
+        }
+      }
+    }
+    .legend {
+      display: flex;
+      justify-content: space-between;
+      width: 250px;
+      margin-right: 35px; 
+      .legend-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .icon {
+          width: 17px;
+          height: 4px;
+          margin-right: 5px;
+          &.media {
+            background: #444444;
+          }
+          &.ontem {
+            background: #00A0C1;
+          }
+          &.hoje {
+            background: #8317D2;
+          }
+        }
+        span {
+          color: #C7C7C1;
+          font-family: 'gotham-light';
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
